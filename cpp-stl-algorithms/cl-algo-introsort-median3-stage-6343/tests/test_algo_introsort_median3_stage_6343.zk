@@ -1,0 +1,10 @@
+// cl-algo-introsort-median3-stage-6343: Test Suite
+import "../asm_6343.zk"
+
+fn test_run():
+    res := median3_calc_6343(10, 50, 30)
+    if res != 30 + 3: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-introsort-median3-stage-6343!")

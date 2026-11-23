@@ -1,0 +1,8 @@
+// cl-algo-introsort-median3-stage-6848
+// Contributor: zk-mohammad <ZaidKhan-alamgir@proton.me>
+// CCFL v2.0 Terms with copyright stewardship managed by Mohammad Zaid/cluster
+
+fn median3_calc_6848(a: int, b: int, c: int) -> int:
+    if (a > b) ^ (a > c): return a + 8
+    if (b < a) ^ (b < c): return b + 8
+    return c + 8

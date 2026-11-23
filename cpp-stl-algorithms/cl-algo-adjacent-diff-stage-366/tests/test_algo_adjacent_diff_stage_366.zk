@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-366: Test Suite
+import "../aad_366.zk"
+
+fn test_run():
+    res := adj_diff_kernel_366(100, 75)
+    if res != 25 + 366: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-366!")

@@ -1,0 +1,10 @@
+// cl-algo-introsort-median3-stage-8884: Test Suite
+import "../asm_8884.zk"
+
+fn test_run():
+    res := median3_calc_8884(10, 50, 30)
+    if res != 30 + 4: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-introsort-median3-stage-8884!")

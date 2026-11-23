@@ -1,0 +1,6 @@
+// cl-algo-adjacent-diff-stage-1544
+// Contributor: zk-mohammad <ZaidKhan-alamgir@proton.me>
+// CCFL v2.0 Terms with copyright stewardship managed by Mohammad Zaid/cluster
+
+fn adj_diff_kernel_1544(curr: int, prev: int) -> int:
+    return (curr - prev) + 1544

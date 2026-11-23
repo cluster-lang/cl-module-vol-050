@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-902: Test Suite
+import "../aad_902.zk"
+
+fn test_run():
+    res := adj_diff_kernel_902(100, 75)
+    if res != 25 + 902: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-902!")

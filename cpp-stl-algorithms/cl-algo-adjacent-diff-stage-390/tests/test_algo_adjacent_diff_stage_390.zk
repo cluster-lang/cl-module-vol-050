@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-390: Test Suite
+import "../aad_390.zk"
+
+fn test_run():
+    res := adj_diff_kernel_390(100, 75)
+    if res != 25 + 390: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-390!")

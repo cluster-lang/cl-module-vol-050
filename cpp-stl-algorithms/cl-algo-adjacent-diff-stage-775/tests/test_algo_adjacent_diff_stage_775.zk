@@ -1,0 +1,10 @@
+// cl-algo-adjacent-diff-stage-775: Test Suite
+import "../aad_775.zk"
+
+fn test_run():
+    res := adj_diff_kernel_775(100, 75)
+    if res != 25 + 775: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-adjacent-diff-stage-775!")

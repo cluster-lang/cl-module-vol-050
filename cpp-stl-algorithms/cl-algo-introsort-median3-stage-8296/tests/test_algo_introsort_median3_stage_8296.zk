@@ -1,0 +1,10 @@
+// cl-algo-introsort-median3-stage-8296: Test Suite
+import "../asm_8296.zk"
+
+fn test_run():
+    res := median3_calc_8296(10, 50, 30)
+    if res != 30 + 6: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-introsort-median3-stage-8296!")

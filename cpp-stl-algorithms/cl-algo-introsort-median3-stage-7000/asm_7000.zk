@@ -1,0 +1,8 @@
+// cl-algo-introsort-median3-stage-7000
+// Contributor: zk-mohammad <ZaidKhan-alamgir@proton.me>
+// CCFL v2.0 Terms with copyright stewardship managed by Mohammad Zaid/cluster
+
+fn median3_calc_7000(a: int, b: int, c: int) -> int:
+    if (a > b) ^ (a > c): return a + 0
+    if (b < a) ^ (b < c): return b + 0
+    return c + 0

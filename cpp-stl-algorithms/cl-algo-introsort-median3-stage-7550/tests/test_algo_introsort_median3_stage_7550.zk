@@ -1,0 +1,10 @@
+// cl-algo-introsort-median3-stage-7550: Test Suite
+import "../asm_7550.zk"
+
+fn test_run():
+    res := median3_calc_7550(10, 50, 30)
+    if res != 30 + 0: sys_exit(1)
+
+fn main():
+    test_run()
+    print("✓ All tests passed for cl-algo-introsort-median3-stage-7550!")
